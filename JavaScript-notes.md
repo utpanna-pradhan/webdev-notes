@@ -37,3 +37,10 @@
  - console.log(+true) =1
  - console.log(true+ ) =error
 
+# Stack,Heap
+- Primitive uses Stack memory . (Copy) -> Changing value will not affect orignal value.
+- Non-primitive uses Heap memory .(same reference) -> Changing value will affect orignal value as the reference is same.
+  
+# string
+- use string interpolation : (`hello i am ${name} `);
+- string methods : toUpperCase(),toLowerCase,CharAt(2),IndexOf('a"),substring(start-number,end-number),slice(2,4)

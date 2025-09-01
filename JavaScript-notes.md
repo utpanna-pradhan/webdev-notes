@@ -44,3 +44,29 @@
 # string
 - use string interpolation : (`hello i am ${name} `);
 - string methods : toUpperCase(),toLowerCase,CharAt(2),IndexOf('a"),substring(start-number,end-number),slice(2,4)
+
+# Number 
+- Define number by using object (new Number)
+- Number methods : toFixed(),toPrecision(),toLocalString,
+
+# Math
+- methods : abs(),round(),ceil(),floor(),min(),max(),random()
+
+# Date and Time
+- create date by using (new Date())
+- methods: toDateString(),toLocalString(),getMonth,getDay()
+- create time (Date now())
+- methods: getTime()
+
+# Array
+- resizable
+- mix content
+- methods: push(),pull(),pop(),unshift(),shift(),includes(),indexOf(),join(),slice(),splice()
+  # few array concepts
+  - Spread operator(...) will spread out array elements .
+  - flat : will return all subarray into a single array.
+  - shallow copy(share same reference)
+  - Deep copy (new copy)
+
+# Object 
+- 

@@ -44,7 +44,7 @@
 # string
 - use string interpolation : (`hello i am ${name} `);
 - string methods : toUpperCase(),toLowerCase,CharAt(2),IndexOf('a"),substring(start-number,end-number),slice(2,4)
-
+# String Methods
 # Number 
 - Define number by using object (new Number)
 - Number methods : toFixed(),toPrecision(),toLocalString,
@@ -68,5 +68,4 @@
   - shallow copy(share same reference)
   - Deep copy (new copy)
 
-# Object 
-- 
+

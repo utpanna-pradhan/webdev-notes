@@ -1,4 +1,4 @@
-# Basics of JS
+ # Basics of JS
 - Used for both client and server site.
 - Node js =backend
 - No need to define type (dynamically typed)
@@ -67,5 +67,61 @@
   - flat : will return all subarray into a single array.
   - shallow copy(share same reference)
   - Deep copy (new copy)
+ 
+# Object
+- By using literals
+    const user={
+      name:"Jina",
+      age:26
+      loginDays:["Mon","Tue"]
+      }
+  console.log(user.name);//access object value
+  console.log(user[age]);//other way to access object value
 
+
+
+  # Control Flow
+  - if(condition)
+  - if(condition)
+      {
+    //code execute
+      }
+    else
+      {
+    //code execute
+      }
+  - if(condition)
+      {
+      //code execute
+      }
+      else if(condition)
+      {
+      //code execute
+      }
+      else
+      {
+      //code execute
+      }
+    - condition check (by using comparison operators >,<,<=,>=,!=,==,===)
+    - if condition is true then only it will go inside scope
+    - multi condition check
+        if(Condition1 && condition2 && condition3)
+          {
+          //code execute
+          }
+      - for multi conidtion checking we can use &&,||,!
+    - switch(char){
+        case 1:{
+          //code
+          break;
+          }
+        .....
+      default:{
+        //code
+      }
+
+# truthy vs falsy value
+- truthy = true,"0","false"," ", [],{}
+- falsy = false,"",0,-0,NaN,undefined,Null,BigInt 0n
+    
 

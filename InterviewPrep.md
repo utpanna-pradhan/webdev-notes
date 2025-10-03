@@ -129,3 +129,67 @@ To make navbar stickt at top we have to first create a navbar at top and few dem
 ```
 # 10. (Bonus) Explain the difference between relative, absolute, and fixed positioning in CSS.
 relative positioning is relative to it's root where as absolute positioning is relative to it's parent.fixed position will be fixed at a particular place .In relative we can't give top,bottom,left.right value but incase of absolute and fixed we can define that.
+
+# 11. Tell me about one mistake you made in a project and how you handled it.
+During my internship i was instructed to complete a task and was asked me about deadline.But i could estimate it too early and gave an early deadline, which actually lead me incomplition of task .So from that experience i got to know that i have to estimate task more than it needed ,so when i complete before time it'll boost my confidence.
+
+# 12. Where do you see yourself in the next 3 years?
+As i have interst in GenAI i can see my self in a product based company where i can use my fullstack technology and integrate AI with it and make a large scalable product that will have millions of user.
+
+# 13. What are the different data types in JavaScript?
+  Data types in js are divided into 2 parts:primitive and non-primitive.Primitive data type are call by value that means if two variables refer to same value ,changing in 1 variable doesn't reflect changes in the other one ,as both of them refer to different memory location.Examples are string,char,number,BigInt,Boolean.On the other hand non-primitive data types are call by reference that means two variable with same value points to same memory location.Examples are array,object,method
+
+# 14. Difference between null, undefined, and NaN.
+Null means we are define a variable null value that can be consider as nothing .Undefined means we are creating a variable but not giving any value to it.Where as NaN is not a number .
+Example:
+let a =null
+let a //undefined
+let a =5/0 //NaN
+
+# 15. Explain hoisting in JavaScript with an example.
+To know about hoisting we need to know 2 things,
+function declaration and function expression.
+Both of them are used to declare function and perform task the only difference this has is hoisting property.
+In case of function declaration we can call the function before it's actually declare and during run time js automatically moves function defination part to the top.
+hello()
+function hello(){
+  //code
+}
+where as in case of function expression we store function inside an expression and we can use that expression name before it's called
+const hello = function(){
+  //
+}
+
+# 16. What is the difference between map(), forEach(), and filter()?
+All three of them are array methods.
+forEach() will execute code for each array element and return undefined.it'll not change the orignal array.Map will also execute for each array element and return a new array of same length but doesn't change the orignal array.filter() will filterout the element based on condition.
+
+# 17. Write a function to reverse a string in JavaScript without using reverse().
+``` HTML 
+function reverseStr(str){
+  const revstr="";
+  for(let i = str.length-1;i>=0;i--){
+    revstr += str[i];
+  }
+  return revstr;
+}
+console.log(reverseStr("Hello))
+```
+# 18. Write a function to count the number of vowels in a string.
+```html
+function countVowels(str) {
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  let count = 0;
+
+  for (let char of str.toLowerCase()) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(countVowels("Hello Utpanna"));
+```
+# 19. Write a function that takes an array of numbers and returns a new array of only even numbers.
+# 20. Given a number n, write a function to check if it’s a prime number.

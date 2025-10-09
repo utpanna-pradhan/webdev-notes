@@ -182,3 +182,13 @@ function reverseStr(str){
 }
 console.log(reverseStr("Hello))
 ```
+
+# 8. Write a function to count the number of words in a given string.
+(Example input: “I love JavaScript” → Output: 3)
+
+
+
+# 9. Create a simple React functional component that fetches data from
+https://jsonplaceholder.typicode.com/users
+and displays the users’ names in a list.
+Also show a loading indicator while fetching.

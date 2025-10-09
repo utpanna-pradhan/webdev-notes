@@ -6,16 +6,14 @@
 # 3. Tell me about a time you failed in a project.
 
 # 4. Tell me about one mistake you made in a project and how you handled it.
-During my internship i was instructed to complete a task with a deadline.But i could estimate it too early and gave an early deadline, which lead to incomplition of task .So from that experience i got to know that i have to estimate task more time than it actually required ,so when i complete it before time it'll boost my confidence.
 
 # 5. Where do you see yourself in the next 3 years?
-As i have interst in GenAI i can see my self in a product based company where i can use my fullstack technology and integrate AI with it and make a large scalable product that will have millions of user.
 
 # 6. Tell me about a time when you faced pressure to meet a deadline. How did you handle it?
 
 # 7. If you are assigned a task you don’t know, what steps would you take?
-First of all i will note down everything i need to complete.Then i will ask all possible questions to complete the task and a reference to it.I will ask chatgpt to summaries the task and ask reference.I divide the task into smaller sections and start by doing simple task at first then i will move to complicated one.
 
+# 8. What’s the most challenging bug you’ve ever fixed, and how did you approach solving it?
 
 
 # -----------------------------------------------TECHNICAL QNA-------------------------------------------
@@ -45,19 +43,17 @@ Here, #title wins.
 # 10. (Bonus) Explain the difference between relative, absolute, and fixed positioning in CSS.
 relative positioning is relative to it's root where as absolute positioning is relative to it's parent.fixed position will be fixed at a particular place .In relative we can't give top,bottom,left.right value but incase of absolute and fixed we can define that.
 
-
-
-# 13. What are the different data types in JavaScript?
+# 11. What are the different data types in JavaScript?
   Data types in js are divided into 2 parts:primitive and non-primitive.Primitive data type are call by value that means if two variables refer to same value ,changing in 1 variable doesn't reflect changes in the other one ,as both of them refer to different memory location.Examples are string,char,number,BigInt,Boolean.On the other hand non-primitive data types are call by reference that means two variable with same value points to same memory location.Examples are array,object,method
 
-# 14. Difference between null, undefined, and NaN.
+# 12. Difference between null, undefined, and NaN.
 Null means we are define a variable null value that can be consider as nothing .Undefined means we are creating a variable but not giving any value to it.Where as NaN is not a number .
 Example:
 let a =null
 let a //undefined
 let a =5/0 //NaN
 
-# 15. Explain hoisting in JavaScript with an example.
+# 13. Explain hoisting in JavaScript with an example.
 To know about hoisting we need to know 2 things,
 function declaration and function expression.
 Both of them are used to declare function and perform task .The only difference it has is this hoisting property.
@@ -71,17 +67,19 @@ const hello = function(){
   //
 }
 
-# 16. What is the difference between map(), forEach(), and filter()?
+# 14. What is the difference between map(), forEach(), and filter()?
 All three of them are array methods.
 forEach() will execute code for each array element and return undefined.it'll not change the orignal array.Map will also execute for each array element and return a new array of same length but doesn't change the orignal array.filter() will filterout the element based on condition.
 
 
 
 
-Q3. Difference between let, const, and var?
-let ,var,const three of them are used to define variables.var is the oldest one which has functinal scope issue.So currently we are using let and const.const is a fixed value and can't be reassign where as let can be reassign.
-Q4. What is hoisting in JavaScript? Explain with an example.
-Q5. Explain the concept of closures in JavaScript with a use case.
+# 15 . What’s the difference between a controlled and an uncontrolled component in React?
+A controlled component is one where React controls the form data through state, making it predictable and easy to validate (e.g., using useState for an input field).
+In contrast, uncontrolled components rely on the DOM to store their data using ref. They’re simpler but harder to manage in complex forms.
 
-🔹 Coding Challenges
+# 16 . Explain how the Virtual DOM works and how it improves React performance.
+React creates a new Virtual DOM and compares it with the old one using the diffing algorithm. Then it only updates the changed elements in the real DOM, which reduces heavy DOM manipulation and improves performance.
+
+
 
